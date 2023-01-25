@@ -1,7 +1,7 @@
 {
-  "name": "go-solutions-architecture",
+  "name": "react-nomad",
   "private": true,
-  "description": "Go! Website",
+  "description": "ReactNomad Web",
   "version": "0.0.1",
   "license": "0BSD",
   "scripts": {

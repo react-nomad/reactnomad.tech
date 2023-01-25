@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Contact from '../contact'
 
 const Page = ({ children, heading, caption, seo }) => {
     return (
@@ -14,6 +15,7 @@ const Page = ({ children, heading, caption, seo }) => {
                 </h2>
             : null }
             {children}
+            <Contact />
         </div>
     )
 }

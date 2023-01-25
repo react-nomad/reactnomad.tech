@@ -314,28 +314,28 @@ const Landing = () => {
                       alt="Slack Integration - ReactNomad Tech Solutions" 
                       title="Slack API Integrations"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] mx-auto px-2"
+                      className="w-full m-auto px-2"
                     />
                     <img 
                       src={TwilioSVG} 
                       alt="Twilio Integration - ReactNomad Tech Solutions" 
                       title="Twilio API Integrations"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] mx-auto px-2"
+                      className="w-full m-auto px-2"
                     /> 
                     <img 
                       src={HubspotSVG} 
                       alt="Hubspot Integration - ReactNomad Tech Solutions" 
                       title="Hubspot API Integrations"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] mx-auto px-2"
+                      className="w-full m-auto px-2"
                     />     
                     <img 
                       src={ShopifySVG} 
                       alt="Shopify Integration - ReactNomad Tech Solutions" 
                       title="Shopify API Integrations"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] mx-auto px-2"
+                      className="w-full m-auto px-2"
                     />
           </div>
           <div className="flex flex-col">
@@ -370,28 +370,28 @@ const Landing = () => {
                       alt="Contentful CMS Integration - ReactNomad Tech Solutions" 
                       title="Contentful CMS Integration"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] m-auto px-2"
+                      className="w-full m-auto px-2"
                     />
                     <img 
                       src={HygraphPNG} 
                       alt="Hygraph CMS Integration - ReactNomad Tech Solutions" 
                       title="Hygraph CMS Integration"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] m-auto px-2"
+                      className="w-full m-auto px-2"
                     />
                     <img 
                       src={StrapiSVG} 
                       alt="Strapi CMS Integration - ReactNomad Tech Solutions" 
                       title="Strapi CMS Integration"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] m-auto px-2"
+                      className="w-full m-auto px-2"
                     />
                    <img 
                       src={SanityPNG} 
                       alt="Sanity CMS Integration - ReactNomad Tech Solutions" 
                       title="Sanity CMS Integration"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] m-auto px-2"
+                      className="w-full m-auto px-2"
                     />
             </div>
             
@@ -421,34 +421,34 @@ const Landing = () => {
           </h3>
           <div className="flex flex-col">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 my-8">
-            <img 
-                      src={GCPSVG} 
-                      alt="Google Cloud Platform Deployment - ReactNomad Tech Solutions" 
-                      title="Google Cloud Platform Deployment"
+
+                                       <img 
+                      src={AWSSVG} 
+                      alt="AWS CloudFront Deployment - ReactNomad Tech Solutions" 
+                      title="AWS CloudFront Deployment"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] m-auto px-2"
+                      className="w-full max-w-[100px] md:max-w-[150px] m-auto px-2"
                     />
                   <img 
                       src={VercelSVG} 
                       alt="Vercel CDN Deployment - ReactNomad Tech Solutions" 
                       title="Vercel CDN Deployment"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] m-auto px-2"
+                      className="w-full m-auto px-2"
                     />
                     <img 
                       src={NetlifySVG} 
                       alt="Netlify CDN Deployment - ReactNomad Tech Solutions" 
                       title="Netlify CDN Deployment"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] m-auto px-2"
+                      className="w-full m-auto px-2"
                     />
-                    
-                   <img 
-                      src={AWSSVG} 
-                      alt="AWS CloudFront Deployment - ReactNomad Tech Solutions" 
-                      title="AWS CloudFront Deployment"
+                                <img 
+                      src={GCPSVG} 
+                      alt="Google Cloud Platform Deployment - ReactNomad Tech Solutions" 
+                      title="Google Cloud Platform Deployment"
                       loading="lazy"
-                      className="h-[40px] md:h-[80px] m-auto px-2"
+                      className="w-full m-auto px-2"
                     />
             </div>
               <p className="py-2">
@@ -465,24 +465,6 @@ const Landing = () => {
                 </Link>
           
           </div>
-        </div>
-        <div className="p-4 md:p-8 my-16 shadow-lg mx-2">
-          <h2 className="page-header text-center my-2">
-            Ready To Get Started?
-          </h2>
-          <p className="my-8 text-center">
-            <strong title="ReactNomad - Your #1 React Development Solutions Provider">ReactNomad is your #1 React development solutions provider</strong>. Get in touch with us today to start making your tech dreams come true!
-          </p>
-          <Link 
-                    to="/contact/" 
-                    className="flex flex-col w-full md:w-fit mx-auto"
-                    title="Contact ReactNomad To Get Started Today!"
-                  >
-                    <button className="text-xl button mt-4 mb-2 hover:shadow-md w-full font-semibold py-4 md:w-fit md:px-12">
-                      Contact ReactNomad Today
-                    </button>
-                </Link>
-                
         </div>
       </Page>
       
